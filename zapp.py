@@ -168,10 +168,11 @@ custom_html = """
 """
 
 # Streamlit app
-st.set_page_config(page_title="TrendyTechnieNews by Sarvesh Udapurkar", layout="wide")
+# st.set_page_config(page_title="TrendyTechnieNews by Sarvesh Udapurkar", layout="wide")
 # st.components.v1.html(custom_html, height=2000, scrolling=True)
-st.html(custom_html, height=2000, scrolling=True)
-
-
+# Streamlit app
+st.set_page_config(page_title="TrendyTechnieNews by Sarvesh Udapurkar", layout="wide")
+# st.write("Custom HTML integration example:")
+st.html(custom_html)
 
 
